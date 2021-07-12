@@ -83,12 +83,13 @@ img {
   .row{
     max-width: 500px;
     background: linear-gradient(7deg, rgba(235,255,253,1) 0%, rgba(224,221,215,1) 49%, rgba(140,138,133,1) 100%);
-    text-align: center;
+    text-align: left;
+    margin: auto;
+    padding: 20px 20px 40px;
   }
   .row h1{
     font-size: 20px;
     color:white;
-    margin-left: -250px;
   }
   .row img{
     width: 50%;
@@ -96,13 +97,14 @@ img {
   }
   #lezioni .row>.left{
     float: none;
-    text-align: center;
+    text-align: left;
     margin-bottom: 30px;
   }
 
   #lezioni .row>.right{
     float: none;
     margin-bottom: 30px;
+    
   }
   #steps .row>.left{
     float: none;
@@ -110,4 +112,6 @@ img {
   #steps .row>.central{
     float: none;
   }
+
+
 }
