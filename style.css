@@ -81,16 +81,18 @@ img {
     margin: 0px;
   }
   .row{
-    max-width: 500px;
-    background: linear-gradient(7deg, rgba(235,255,253,1) 0%, rgba(224,221,215,1) 49%, rgba(140,138,133,1) 100%);
+    width: 100%;
+    /* background: linear-gradient(7deg, rgba(235,255,253,1) 0%, rgba(224,221,215,1) 49%, rgba(140,138,133,1) 100%); */
     text-align: left;
     margin: auto;
     padding: 20px 20px 40px;
   }
   .row h1{
-    font-size: 20px;
+    font-size: 25px;
+    padding: 10px;
     color:white;
-    background-color: #6b7193;
+    border-radius: 10px;
+    background-color:sandybrown;
   }
   .row img{
     width: 50%;
@@ -98,30 +100,40 @@ img {
     margin: 20px 0;
   }
   #lezioni .row>.left{
+    width: 100%;
     float: none;
     text-align: left;
     margin-bottom: 30px;
   }
 
   #lezioni .row>.right{
+    width: 100%;
     float: none;
     margin-bottom: 30px;
     
   }
+  #steps .row>.right{
+    float: none;
+    width: 100%;
+  }
   #steps .row>.left{
     float: none;
+    width: 100%;
   }
   #steps .row>.central{
     float: none;
+    width: 100%;
   }
  h3{
    background-color: rgba(140,138,133,1);
    color: seashell;
+   padding: 0 10px;
+   border-radius: 7px;
  }
 
   #why .row img{
    padding: 0px;
-   width: 25%;
-   height: 25%;
+   width: 40%;
+   height: 40%;
  }
 
