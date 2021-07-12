@@ -90,6 +90,7 @@ img {
   .row h1{
     font-size: 20px;
     color:white;
+    background-color: #6b7193;
   }
   .row img{
     width: 50%;
@@ -116,7 +117,11 @@ img {
  h3{
    background-color: rgba(140,138,133,1);
    color: seashell;
-
  }
 
-}
+  #why .row img{
+   padding: 0px;
+   width: 25%;
+   height: 25%;
+ }
+
