@@ -94,6 +94,7 @@ img {
   .row img{
     width: 50%;
     height: 50%;
+    margin: 20px 0;
   }
   #lezioni .row>.left{
     float: none;
@@ -112,6 +113,10 @@ img {
   #steps .row>.central{
     float: none;
   }
+ h3{
+   background-color: rgba(140,138,133,1);
+   color: seashell;
 
+ }
 
 }
